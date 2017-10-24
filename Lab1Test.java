@@ -1,8 +1,7 @@
-
 import java.util.Scanner;
 
-public class GrandCircusLab1 {
-
+public class Lab1Test {
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -32,7 +31,5 @@ public class GrandCircusLab1 {
 			
 		
 		}
-		
-	}
 
-
+}

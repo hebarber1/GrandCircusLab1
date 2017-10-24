@@ -7,7 +7,7 @@ public class GrandCircusLab1 {
 		// TODO Auto-generated method stub
 
 		double roomLength, roomWidth, roomArea, roomPerimeter = 0.0;
-		String c = " "; //using for continue (y/n)
+		char continue = ' ';
 		Scanner scnr = new Scanner(System.in);
 		
 		System.out.println("Welcome to Grand Circus' Room Detail Generator!");
@@ -19,17 +19,18 @@ public class GrandCircusLab1 {
 		System.out.println("Enter width:");
 		roomWidth = scnr.nextDouble();
 		
-		roomArea = (roomWidth * roomLength);  //calculates Area of rectangle (w * l)
-		roomPerimeter = (2 * (roomWidth + roomLength)); // calculates Perimeter 2(w + l)
+		roomArea = (roomWidth * roomLength);
+		roomPerimeter = (2 * (roomWidth + roomLength));
 		
 		System.out.println("Area: " + roomArea);
 		System.out.println("Perimeter: " + roomPerimeter);
 		
-		System.out.println ("Continue? (y/n):");
+		System.out.println ("Continue (y/n):");
+		continue = scnr.next();
+		
+		if (continue = 'y')
 		
 		
-		
-			
 		
 		}
 		
